@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    text-align: center;
+}
+body{
+    background-color: aqua;
+    text-align: center;
+}
+.container{
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    gap: 30px;
+
+}
+img{
+    height: 12rem;
+    width: 12rem;
+    margin: 8px;
+    object-fit: cover;
+    border-radius: 50%;
+    gap: 50px;
+}
+.btn{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+   
+  
+
+}
+.btn:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+#topc{
+   height: 90px;
+   width: 100%;
+   background-color: black; 
+   color: #fff;
+   text-align: center;
+
+}
+#ss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;   
+    font-size: 2rem; 
+    color: red;
+
+}
+#yoursc{
+    height: 5rem;
+    width: 20rem;
+    background-color: black;
+    border-radius: 40px;
+}
+#comsc{
+    height: 5rem;
+    width: 22rem;
+    background-color:black;
+    border-radius: 40px;
+}
+#yc{
+    color: blue;
+}
+#cc{
+    color: blue;
+}
+
+
+
+
+#msg{
+    margin-top: 100px;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    justify-content: center;
+}
